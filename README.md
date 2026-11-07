@@ -146,6 +146,12 @@ History/Remote event queues and actors have separate explicit ownership and
 bounds described above. No silence-based on-air inference or hardware identity
 is manufactured.
 
+The original V3 actor derives session indexes by splitting paths on `/`, so
+Windows emits `NaN` (JSON `null`) for a new session. Rust uses the native file
+stem and retains index 3 in the synthetic regression on every platform. The
+runtime oracle explicitly asserts the original Windows `NaN` before applying
+this single documented correction; other session fields remain compared.
+
 ## Validation
 
 ```sh

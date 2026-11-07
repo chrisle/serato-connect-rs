@@ -50,6 +50,16 @@ const updated=Buffer.concat([...songs.map((s,i)=>record(i===0?{...s,played:1}:s)
 fs.writeFileSync(path.join(historyRoot,'History/Sessions/2.session'),updated);fs.utimesSync(path.join(historyRoot,'History/Sessions/2.session'),new Date(),new Date(Date.now()+1000));await connect.poll();
 const newSession=record({title:'New Session',artist:'Live Artist',filePath:'/Synthetic/session.mp3',bpm:134,start:1700000300,played:1,deck:3});fs.writeFileSync(path.join(historyRoot,'History/Sessions/3.session'),newSession);await connect.poll();connect.stop();
 fs.writeFileSync(path.join(target,'updated.bin'),updated);fs.writeFileSync(path.join(target,'new_session.bin'),newSession);
+// Original TS splits native paths on '/' and produces NaN on Windows.
+// Assert that exact platform difference before recording the intentional Rust
+// correction. Other indexes/fields are never normalized by this exception.
+const sessionEvents=lifecycle.filter(event=>event.type==='session');
+if(sessionEvents.length!==1)throw Error('unexpected session oracle sequence');
+const observedIndex=sessionEvents[0].payload.session.index;
+if(process.platform==='win32'){
+  if(!Number.isNaN(observedIndex))throw Error('original Windows session-index behavior changed');
+  sessionEvents[0].payload.session.index=3;
+}else if(observedIndex!==3)throw Error('unexpected original session index');
 out.v3Lifecycle=JSON.parse(JSON.stringify(lifecycle,(key,value)=>key==='seratoPath'?'synthetic':key==='date'?'DATE':value));
 const net=require('net'),{once}=require('events');const listener=net.createServer();listener.listen(0,'127.0.0.1');await once(listener,'listening');const accepted=once(listener,'connection');const peer=net.connect(listener.address().port,'127.0.0.1');await once(peer,'connect');const [socket]=await accepted;
 const remoteSession=new ts.RemoteSession({socket,subscribeTopics:['/Register/Status/Deck/Playhead'],peerName:'Synthetic Remote',peerUuid:'synthetic-peer-uuid'});remoteSession.on('error',()=>{});
