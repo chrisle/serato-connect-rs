@@ -234,7 +234,10 @@ fn history_failed_start_retry_queue_saturation_and_drop_release_owned_state() {
     assert!(connect.set_poll_interval(Duration::ZERO).is_err());
     connect.set_poll_interval(Duration::from_millis(1)).unwrap();
     assert_eq!(connect.poll_interval(), Duration::from_millis(1));
-    let until = Instant::now() + Duration::from_secs(3);
+    // Windows may round each 1 ms actor wait to a ~16 ms scheduler tick.
+    // Filling all 256 slots can therefore exceed three seconds; the assertion
+    // is eventual bounded overflow, not a submillisecond scheduling guarantee.
+    let until = Instant::now() + Duration::from_secs(15);
     while connect.running() {
         assert!(Instant::now() < until);
         thread::sleep(Duration::from_millis(5));
