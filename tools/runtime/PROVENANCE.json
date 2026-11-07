@@ -1,0 +1,15 @@
+{
+  "source": "https://github.com/chrisle/serato-connect",
+  "commit": "8ce4aaf7642968fbde21ad413eff5b89db4debf4",
+  "license": "MIT",
+  "fixtures": "Entirely synthetic binary history, plaintext SQLite rows, OSC/nonce/peer/session fields; no user captures or audio.",
+  "oracle": "Actual checksum-verified pinned TypeScript; runtime only loopback TCP and injected/pure dispatch, never mDNS publication.",
+  "sha256": {
+    "schema.sql": "5dd8906097179302ce8f898fdaebf290142e60dec9984e12d487af4f8220524d",
+    "session.bin": "fbaaec26d42798e22b38e2fd182bb32a9f9e78b5340bb7397b01780c1b82c959",
+    "sessions.bin": "f0eefa9c517f88231af76993d29e791627d4989f270dc901bbb10da31f989bf7",
+    "updated.bin": "d45748ca6b0f3c120b88221d080e999d827754a30a624e1b61749cd8ce7e32b2",
+    "new_session.bin": "647844ad41946a45de566105bd02bc68b150ae9d3c5201f323f89dd43317c552",
+    "expected.json": "f0f9358667ee966f3f181cdeb3917c33cefbdfb42745776aaf259695168ef25f"
+  }
+}

@@ -1,0 +1,3891 @@
+[
+  {
+    "op": "encodeSerato32",
+    "values": [
+      0,
+      0,
+      0
+    ],
+    "expected": {
+      "ok": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "op": "decodeSerato32",
+    "values": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "expected": {
+      "ok": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "op": "encodeSerato32Buffer",
+    "hex": "000000",
+    "expected": {
+      "ok": "00000000"
+    }
+  },
+  {
+    "op": "decodeSerato32Buffer",
+    "hex": "00000000",
+    "expected": {
+      "ok": "000000"
+    }
+  },
+  {
+    "op": "decodeSerato32U32",
+    "hex": "6300000000",
+    "offset": 1,
+    "expected": {
+      "ok": 0
+    }
+  },
+  {
+    "op": "decodeSerato32Color",
+    "hex": "00000000",
+    "offset": 0,
+    "expected": {
+      "ok": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    }
+  },
+  {
+    "op": "encodeSerato32Color",
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "expected": {
+      "ok": "00000000"
+    }
+  },
+  {
+    "op": "encodeSerato32",
+    "values": [
+      255,
+      255,
+      255
+    ],
+    "expected": {
+      "ok": [
+        7,
+        127,
+        127,
+        127
+      ]
+    }
+  },
+  {
+    "op": "decodeSerato32",
+    "values": [
+      7,
+      127,
+      127,
+      127
+    ],
+    "expected": {
+      "ok": [
+        255,
+        255,
+        255
+      ]
+    }
+  },
+  {
+    "op": "encodeSerato32Buffer",
+    "hex": "ffffff",
+    "expected": {
+      "ok": "077f7f7f"
+    }
+  },
+  {
+    "op": "decodeSerato32Buffer",
+    "hex": "077f7f7f",
+    "expected": {
+      "ok": "ffffff"
+    }
+  },
+  {
+    "op": "decodeSerato32U32",
+    "hex": "63077f7f7f",
+    "offset": 1,
+    "expected": {
+      "ok": 16777215
+    }
+  },
+  {
+    "op": "decodeSerato32Color",
+    "hex": "077f7f7f",
+    "offset": 0,
+    "expected": {
+      "ok": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      }
+    }
+  },
+  {
+    "op": "encodeSerato32Color",
+    "color": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "expected": {
+      "ok": "077f7f7f"
+    }
+  },
+  {
+    "op": "encodeSerato32",
+    "values": [
+      204,
+      136,
+      0
+    ],
+    "expected": {
+      "ok": [
+        6,
+        50,
+        16,
+        0
+      ]
+    }
+  },
+  {
+    "op": "decodeSerato32",
+    "values": [
+      6,
+      50,
+      16,
+      0
+    ],
+    "expected": {
+      "ok": [
+        204,
+        136,
+        0
+      ]
+    }
+  },
+  {
+    "op": "encodeSerato32Buffer",
+    "hex": "cc8800",
+    "expected": {
+      "ok": "06321000"
+    }
+  },
+  {
+    "op": "decodeSerato32Buffer",
+    "hex": "06321000",
+    "expected": {
+      "ok": "cc8800"
+    }
+  },
+  {
+    "op": "decodeSerato32U32",
+    "hex": "6306321000",
+    "offset": 1,
+    "expected": {
+      "ok": 13404160
+    }
+  },
+  {
+    "op": "decodeSerato32Color",
+    "hex": "06321000",
+    "offset": 0,
+    "expected": {
+      "ok": {
+        "r": 204,
+        "g": 136,
+        "b": 0
+      }
+    }
+  },
+  {
+    "op": "encodeSerato32Color",
+    "color": {
+      "r": 204,
+      "g": 136,
+      "b": 0
+    },
+    "expected": {
+      "ok": "06321000"
+    }
+  },
+  {
+    "op": "encodeSerato32",
+    "values": [
+      1,
+      127,
+      128
+    ],
+    "expected": {
+      "ok": [
+        0,
+        5,
+        127,
+        0
+      ]
+    }
+  },
+  {
+    "op": "decodeSerato32",
+    "values": [
+      0,
+      5,
+      127,
+      0
+    ],
+    "expected": {
+      "ok": [
+        1,
+        127,
+        128
+      ]
+    }
+  },
+  {
+    "op": "encodeSerato32Buffer",
+    "hex": "017f80",
+    "expected": {
+      "ok": "00057f00"
+    }
+  },
+  {
+    "op": "decodeSerato32Buffer",
+    "hex": "00057f00",
+    "expected": {
+      "ok": "017f80"
+    }
+  },
+  {
+    "op": "decodeSerato32U32",
+    "hex": "6300057f00",
+    "offset": 1,
+    "expected": {
+      "ok": 98176
+    }
+  },
+  {
+    "op": "decodeSerato32Color",
+    "hex": "00057f00",
+    "offset": 0,
+    "expected": {
+      "ok": {
+        "r": 1,
+        "g": 127,
+        "b": 128
+      }
+    }
+  },
+  {
+    "op": "encodeSerato32Color",
+    "color": {
+      "r": 1,
+      "g": 127,
+      "b": 128
+    },
+    "expected": {
+      "ok": "00057f00"
+    }
+  },
+  {
+    "op": "encodeSerato32U32",
+    "value": 0,
+    "expected": {
+      "ok": "00000000"
+    }
+  },
+  {
+    "op": "encodeSerato32U32",
+    "value": 1,
+    "expected": {
+      "ok": "00000001"
+    }
+  },
+  {
+    "op": "encodeSerato32U32",
+    "value": 16777215,
+    "expected": {
+      "ok": "077f7f7f"
+    }
+  },
+  {
+    "op": "encodeSerato32U32",
+    "value": 305419896,
+    "expected": {
+      "ok": "01512c78"
+    }
+  },
+  {
+    "op": "encodeSerato32Buffer",
+    "hex": "00",
+    "expected": {
+      "error": true
+    }
+  },
+  {
+    "op": "decodeSerato32Buffer",
+    "hex": "00",
+    "expected": {
+      "error": true
+    }
+  },
+  {
+    "op": "decodeWithLinebreaks",
+    "text": "",
+    "expected": {
+      "ok": ""
+    }
+  },
+  {
+    "op": "isSeratoBase64",
+    "text": "",
+    "expected": {
+      "ok": false
+    }
+  },
+  {
+    "op": "decodeWithLinebreaks",
+    "text": "AA",
+    "expected": {
+      "ok": "00"
+    }
+  },
+  {
+    "op": "isSeratoBase64",
+    "text": "AA",
+    "expected": {
+      "ok": true
+    }
+  },
+  {
+    "op": "decodeWithLinebreaks",
+    "text": "AA==",
+    "expected": {
+      "ok": "00"
+    }
+  },
+  {
+    "op": "isSeratoBase64",
+    "text": "AA==",
+    "expected": {
+      "ok": false
+    }
+  },
+  {
+    "op": "decodeWithLinebreaks",
+    "text": "A",
+    "expected": {
+      "ok": ""
+    }
+  },
+  {
+    "op": "isSeratoBase64",
+    "text": "A",
+    "expected": {
+      "ok": true
+    }
+  },
+  {
+    "op": "decodeWithLinebreaks",
+    "text": "!!!!",
+    "expected": {
+      "ok": ""
+    }
+  },
+  {
+    "op": "isSeratoBase64",
+    "text": "!!!!",
+    "expected": {
+      "ok": false
+    }
+  },
+  {
+    "op": "decodeWithLinebreaks",
+    "text": "SGVsbG8\nV29ybGQ",
+    "expected": {
+      "ok": "48656c6c6f15dbdc9b19"
+    }
+  },
+  {
+    "op": "isSeratoBase64",
+    "text": "SGVsbG8\nV29ybGQ",
+    "expected": {
+      "ok": true
+    }
+  },
+  {
+    "op": "decodeWithLinebreaks",
+    "text": " SGVsbG8﻿V29ybGQ ",
+    "expected": {
+      "ok": "48656c6c6f15dbdc9b19"
+    }
+  },
+  {
+    "op": "isSeratoBase64",
+    "text": " SGVsbG8﻿V29ybGQ ",
+    "expected": {
+      "ok": false
+    }
+  },
+  {
+    "op": "decodeWithLinebreaks",
+    "text": "-_8",
+    "expected": {
+      "ok": "fbff"
+    }
+  },
+  {
+    "op": "isSeratoBase64",
+    "text": "-_8",
+    "expected": {
+      "ok": false
+    }
+  },
+  {
+    "op": "decodeWithLinebreaks",
+    "text": "a===b",
+    "expected": {
+      "ok": ""
+    }
+  },
+  {
+    "op": "isSeratoBase64",
+    "text": "a===b",
+    "expected": {
+      "ok": false
+    }
+  },
+  {
+    "op": "decodeWithLinebreaks",
+    "text": "abcde",
+    "expected": {
+      "ok": "69b71d"
+    }
+  },
+  {
+    "op": "isSeratoBase64",
+    "text": "abcde",
+    "expected": {
+      "ok": true
+    }
+  },
+  {
+    "op": "encodeWithLinebreaks",
+    "hex": "",
+    "expected": {
+      "ok": ""
+    }
+  },
+  {
+    "op": "encodeWithLinebreaks",
+    "hex": "00",
+    "expected": {
+      "ok": "AA"
+    }
+  },
+  {
+    "op": "encodeWithLinebreaks",
+    "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435",
+    "expected": {
+      "ok": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmJygpKissLS4vMDEyMzQ1"
+    }
+  },
+  {
+    "op": "encodeWithLinebreaks",
+    "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f30313233343536",
+    "expected": {
+      "ok": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmJygpKissLS4vMDEyMzQ1\nNg"
+    }
+  },
+  {
+    "op": "encodeWithLinebreaks",
+    "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f7071727374757677",
+    "expected": {
+      "ok": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmJygpKissLS4vMDEyMzQ1\nNjc4OTo7PD0+P0BBQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWltcXV5fYGFiY2RlZmdoaWpr\nbG1ub3BxcnN0dXZ3"
+    }
+  },
+  {
+    "op": "parseMarkers2",
+    "hex": "",
+    "expected": {
+      "ok": {
+        "cuePoints": [],
+        "loops": [],
+        "flips": []
+      }
+    }
+  },
+  {
+    "op": "parseMarkers2",
+    "hex": "010100",
+    "expected": {
+      "ok": {
+        "cuePoints": [],
+        "loops": [],
+        "flips": []
+      }
+    }
+  },
+  {
+    "op": "parseMarkers2",
+    "hex": "0101434f4c4f52000000000400cc880042504d4c4f434b000000000101435545000000001300050000303e000c22380000c38920637565004355450000000012000000003039000c223800004669727374004c4f4f50000000001b000200000fa000001f4000000000ff010203000000014c6f6f7000464c4950000000003f000101466c697000010000000200000000103ff400000000000040040000000000000100000018400a0000000000004012000000000000bff0000000000000554e4b4e4f574e000000000301020300",
+    "expected": {
+      "ok": {
+        "cuePoints": [
+          {
+            "index": 0,
+            "position": 12345,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "First"
+          },
+          {
+            "index": 5,
+            "position": 12350,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "É cue"
+          }
+        ],
+        "loops": [
+          {
+            "index": 2,
+            "startPosition": 4000,
+            "endPosition": 8000,
+            "color": {
+              "r": 1,
+              "g": 2,
+              "b": 3,
+              "a": 255
+            },
+            "locked": true,
+            "name": "Loop"
+          }
+        ],
+        "flips": [
+          {
+            "index": 1,
+            "enabled": true,
+            "name": "Flip",
+            "loop": true,
+            "actions": [
+              {
+                "type": "jump",
+                "sourcePosition": 1.25,
+                "targetPosition": 2.5
+              },
+              {
+                "type": "censor",
+                "sourcePosition": 3.25,
+                "targetPosition": 4.5,
+                "speedFactor": -1
+              }
+            ]
+          }
+        ],
+        "trackColor": {
+          "r": 204,
+          "g": 136,
+          "b": 0
+        },
+        "bpmLock": true
+      }
+    }
+  },
+  {
+    "op": "parseMarkers2",
+    "hex": "0101434f4c4f52000000000400cc880042504d4c4f434b000000000101435545000000001300050000303e000c22380000c38920637565004355450000000012000000003039000c223800004669727374004c4f4f50000000001b000200000fa000001f4000000000ff010203000000014c6f6f7000464c4950000000003f000101466c697000010000000200000000103ff400000000000040040000000000000100000018400a0000000000004012000000000000bff0000000000000554e4b4e4f574e000000000301020342524f4b454e00000003e7",
+    "expected": {
+      "ok": {
+        "cuePoints": [
+          {
+            "index": 0,
+            "position": 12345,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "First"
+          },
+          {
+            "index": 5,
+            "position": 12350,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "É cue"
+          }
+        ],
+        "loops": [
+          {
+            "index": 2,
+            "startPosition": 4000,
+            "endPosition": 8000,
+            "color": {
+              "r": 1,
+              "g": 2,
+              "b": 3,
+              "a": 255
+            },
+            "locked": true,
+            "name": "Loop"
+          }
+        ],
+        "flips": [
+          {
+            "index": 1,
+            "enabled": true,
+            "name": "Flip",
+            "loop": true,
+            "actions": [
+              {
+                "type": "jump",
+                "sourcePosition": 1.25,
+                "targetPosition": 2.5
+              },
+              {
+                "type": "censor",
+                "sourcePosition": 3.25,
+                "targetPosition": 4.5,
+                "speedFactor": -1
+              }
+            ]
+          }
+        ],
+        "trackColor": {
+          "r": 204,
+          "g": 136,
+          "b": 0
+        },
+        "bpmLock": true
+      }
+    }
+  },
+  {
+    "op": "parseMarkers2",
+    "hex": "010143554500000000020001",
+    "expected": {
+      "error": true
+    }
+  },
+  {
+    "op": "parseMarkers2FromBase64",
+    "text": "AQFDT0xPUgAAAAAEAMyIAEJQTUxPQ0sAAAAAAQFDVUUAAAAAEwAFAAAwPgAMIjgAAMOJIGN1ZQBDVUUAAAAAEgAAAAAwOQAMIjgAAEZpcnN0AExPT1AAAAAAGwACAAAPoAAAH0AAAAAA/wECAwAAAAFMb29wAEZMSVAAAAAAPwABAUZsaXAAAQAAAAIAAAAAED/0AAAAAAAAQAQAAAAAAAABAAAAGEAKAAAAAAAAQBIAAAAAAAC/8AAAAAAAAFVOS05PV04AAAAAAwECAwA",
+    "expected": {
+      "ok": {
+        "cuePoints": [
+          {
+            "index": 0,
+            "position": 12345,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "First"
+          },
+          {
+            "index": 5,
+            "position": 12350,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "É cue"
+          }
+        ],
+        "loops": [
+          {
+            "index": 2,
+            "startPosition": 4000,
+            "endPosition": 8000,
+            "color": {
+              "r": 1,
+              "g": 2,
+              "b": 3,
+              "a": 255
+            },
+            "locked": true,
+            "name": "Loop"
+          }
+        ],
+        "flips": [
+          {
+            "index": 1,
+            "enabled": true,
+            "name": "Flip",
+            "loop": true,
+            "actions": [
+              {
+                "type": "jump",
+                "sourcePosition": 1.25,
+                "targetPosition": 2.5
+              },
+              {
+                "type": "censor",
+                "sourcePosition": 3.25,
+                "targetPosition": 4.5,
+                "speedFactor": -1
+              }
+            ]
+          }
+        ],
+        "trackColor": {
+          "r": 204,
+          "g": 136,
+          "b": 0
+        },
+        "bpmLock": true
+      }
+    }
+  },
+  {
+    "op": "parseMarkers2FromBase64",
+    "text": "AQFDT0xPUgAAAAAEAMyIAEJQTUxPQ0sAAAAAAQFDVUUAAAAAEwAFAAAwPgAMIjgAAMOJIGN1\nZQBDVUUAAAAAEgAAAAAwOQAMIjgAAEZpcnN0AExPT1AAAAAAGwACAAAPoAAAH0AAAAAA/wEC\nAwAAAAFMb29wAEZMSVAAAAAAPwABAUZsaXAAAQAAAAIAAAAAED/0AAAAAAAAQAQAAAAAAAAB\nAAAAGEAKAAAAAAAAQBIAAAAAAAC/8AAAAAAAAFVOS05PV04AAAAAAwECAwA",
+    "expected": {
+      "ok": {
+        "cuePoints": [
+          {
+            "index": 0,
+            "position": 12345,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "First"
+          },
+          {
+            "index": 5,
+            "position": 12350,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "É cue"
+          }
+        ],
+        "loops": [
+          {
+            "index": 2,
+            "startPosition": 4000,
+            "endPosition": 8000,
+            "color": {
+              "r": 1,
+              "g": 2,
+              "b": 3,
+              "a": 255
+            },
+            "locked": true,
+            "name": "Loop"
+          }
+        ],
+        "flips": [
+          {
+            "index": 1,
+            "enabled": true,
+            "name": "Flip",
+            "loop": true,
+            "actions": [
+              {
+                "type": "jump",
+                "sourcePosition": 1.25,
+                "targetPosition": 2.5
+              },
+              {
+                "type": "censor",
+                "sourcePosition": 3.25,
+                "targetPosition": 4.5,
+                "speedFactor": -1
+              }
+            ]
+          }
+        ],
+        "trackColor": {
+          "r": 204,
+          "g": 136,
+          "b": 0
+        },
+        "bpmLock": true
+      }
+    }
+  },
+  {
+    "op": "parseMarkers2FromBase64",
+    "text": "AQFDT0xPUgAAAAAEAMyIAEJQTUxPQ0sAAAAAAQFDVUUAAAAAEwAFAAAwPgAMIjgAAMOJIGN1ZQBDVUUAAAAAEgAAAAAwOQAMIjgAAEZpcnN0AExPT1AAAAAAGwACAAAPoAAAH0AAAAAA/wECAwAAAAFMb29wAEZMSVAAAAAAPwABAUZsaXAAAQAAAAIAAAAAED/0AAAAAAAAQAQAAAAAAAABAAAAGEAKAAAAAAAAQBIAAAAAAAC/8AAAAAAAAFVOS05PV04AAAAAAwECAwAA",
+    "expected": {
+      "ok": {
+        "cuePoints": [
+          {
+            "index": 0,
+            "position": 12345,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "First"
+          },
+          {
+            "index": 5,
+            "position": 12350,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "É cue"
+          }
+        ],
+        "loops": [
+          {
+            "index": 2,
+            "startPosition": 4000,
+            "endPosition": 8000,
+            "color": {
+              "r": 1,
+              "g": 2,
+              "b": 3,
+              "a": 255
+            },
+            "locked": true,
+            "name": "Loop"
+          }
+        ],
+        "flips": [
+          {
+            "index": 1,
+            "enabled": true,
+            "name": "Flip",
+            "loop": true,
+            "actions": [
+              {
+                "type": "jump",
+                "sourcePosition": 1.25,
+                "targetPosition": 2.5
+              },
+              {
+                "type": "censor",
+                "sourcePosition": 3.25,
+                "targetPosition": 4.5,
+                "speedFactor": -1
+              }
+            ]
+          }
+        ],
+        "trackColor": {
+          "r": 204,
+          "g": 136,
+          "b": 0
+        },
+        "bpmLock": true
+      }
+    }
+  },
+  {
+    "op": "parseMarkers2FromGeob",
+    "hex": "010141514644543078505567414141414145414d794941454a5154557850513073414141414141514644565555414141414145774146414141775067414d496a6741414d4f4a49474e315a514244565555414141414145674141414141774f51414d496a674141455a70636e4e3041457850543141414141414147774143414141506f41414148304141414141412f774543417741414141464d6232397741455a4d53564141414141415077414241555a736158414141514141414149414141414145442f304141414141414141514151414141414141414142414141414745414b414141414141414151424941414141414141432f38414141414141414146564f533035505630344141414141417745434177410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "expected": {
+      "ok": {
+        "cuePoints": [
+          {
+            "index": 0,
+            "position": 12345,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "First"
+          },
+          {
+            "index": 5,
+            "position": 12350,
+            "color": {
+              "r": 12,
+              "g": 34,
+              "b": 56
+            },
+            "name": "É cue"
+          }
+        ],
+        "loops": [
+          {
+            "index": 2,
+            "startPosition": 4000,
+            "endPosition": 8000,
+            "color": {
+              "r": 1,
+              "g": 2,
+              "b": 3,
+              "a": 255
+            },
+            "locked": true,
+            "name": "Loop"
+          }
+        ],
+        "flips": [
+          {
+            "index": 1,
+            "enabled": true,
+            "name": "Flip",
+            "loop": true,
+            "actions": [
+              {
+                "type": "jump",
+                "sourcePosition": 1.25,
+                "targetPosition": 2.5
+              },
+              {
+                "type": "censor",
+                "sourcePosition": 3.25,
+                "targetPosition": 4.5,
+                "speedFactor": -1
+              }
+            ]
+          }
+        ],
+        "trackColor": {
+          "r": 204,
+          "g": 136,
+          "b": 0
+        },
+        "bpmLock": true
+      }
+    }
+  },
+  {
+    "op": "parseBeatgrid",
+    "hex": "",
+    "expected": {
+      "ok": {
+        "markers": []
+      }
+    }
+  },
+  {
+    "op": "parseBeatgrid",
+    "hex": "0101000000023fc000000000000840b000004300400000",
+    "expected": {
+      "ok": {
+        "markers": [
+          {
+            "position": 1.5,
+            "beatsToNext": 8
+          },
+          {
+            "position": 5.5,
+            "bpm": 128.25
+          }
+        ]
+      }
+    }
+  },
+  {
+    "op": "parseBeatgrid",
+    "hex": "0101000000023fc00000",
+    "expected": {
+      "ok": {
+        "markers": []
+      }
+    }
+  },
+  {
+    "op": "parseBeatgridFromBase64",
+    "text": "AQEAAAACP8AAAAAAAAhAsAAAQwBAAAA",
+    "expected": {
+      "ok": {
+        "markers": [
+          {
+            "position": 1.5,
+            "beatsToNext": 8
+          },
+          {
+            "position": 5.5,
+            "bpm": 128.25
+          }
+        ]
+      }
+    }
+  },
+  {
+    "op": "getBpmFromBeatgrid",
+    "grid": {
+      "markers": [
+        {
+          "position": 1.5,
+          "beatsToNext": 8
+        },
+        {
+          "position": 5.5,
+          "bpm": 128.25
+        }
+      ]
+    },
+    "expected": {
+      "ok": 128.25
+    }
+  },
+  {
+    "op": "isDynamicBeatgrid",
+    "grid": {
+      "markers": [
+        {
+          "position": 1.5,
+          "beatsToNext": 8
+        },
+        {
+          "position": 5.5,
+          "bpm": 128.25
+        }
+      ]
+    },
+    "expected": {
+      "ok": true
+    }
+  },
+  {
+    "op": "getBpmFromBeatgrid",
+    "grid": {
+      "markers": []
+    },
+    "expected": {
+      "ok": null
+    }
+  },
+  {
+    "op": "isDynamicBeatgrid",
+    "grid": {
+      "markers": []
+    },
+    "expected": {
+      "ok": false
+    }
+  },
+  {
+    "op": "getBpmFromBeatgrid",
+    "grid": {
+      "markers": [
+        {
+          "position": 0,
+          "bpm": 99
+        }
+      ]
+    },
+    "expected": {
+      "ok": 99
+    }
+  },
+  {
+    "op": "isDynamicBeatgrid",
+    "grid": {
+      "markers": [
+        {
+          "position": 0,
+          "bpm": 99
+        }
+      ]
+    },
+    "expected": {
+      "ok": false
+    }
+  },
+  {
+    "op": "parseAutotags",
+    "hex": "",
+    "expected": {
+      "ok": {
+        "bpm": 0,
+        "autoGain": 0,
+        "gainDb": 0
+      }
+    }
+  },
+  {
+    "op": "parseAutotags",
+    "hex": "01013132382e3530002d332e32353700302e30303000",
+    "expected": {
+      "ok": {
+        "bpm": 128.5,
+        "autoGain": -3.257,
+        "gainDb": 0
+      }
+    }
+  },
+  {
+    "op": "parseAutotags",
+    "hex": "31322e35787800626164787878002d322e303000",
+    "expected": {
+      "ok": {
+        "bpm": 12.5,
+        "autoGain": 0,
+        "gainDb": -2
+      }
+    }
+  },
+  {
+    "op": "parseAutotagsFromBase64",
+    "text": "AQExMjguNTAALTMuMjU3ADAuMDAwAA",
+    "expected": {
+      "ok": {
+        "bpm": 128.5,
+        "autoGain": -3.257,
+        "gainDb": 0
+      }
+    }
+  },
+  {
+    "op": "parseCrate",
+    "file": "Subcrates/A.crate",
+    "expected": {
+      "ok": {
+        "name": "A",
+        "path": "Subcrates/A.crate",
+        "version": "1.0/Serato ScratchLive Crate",
+        "trackPaths": [
+          "/Synthetic/É one.mp3",
+          "Music/Album/two.flac"
+        ]
+      }
+    }
+  },
+  {
+    "op": "parseCrateSync",
+    "file": "Subcrates/A.crate",
+    "expected": {
+      "ok": {
+        "name": "A",
+        "path": "Subcrates/A.crate",
+        "version": "1.0/Serato ScratchLive Crate",
+        "trackPaths": [
+          "/Synthetic/É one.mp3",
+          "Music/Album/two.flac"
+        ]
+      }
+    }
+  },
+  {
+    "op": "listCrates",
+    "expected": {
+      "ok": [
+        "Subcrates/A.crate",
+        "Subcrates/B.crate"
+      ]
+    }
+  },
+  {
+    "op": "getAllCrates",
+    "expected": {
+      "ok": [
+        {
+          "name": "A",
+          "path": "Subcrates/A.crate",
+          "version": "1.0/Serato ScratchLive Crate",
+          "trackPaths": [
+            "/Synthetic/É one.mp3",
+            "Music/Album/two.flac"
+          ]
+        },
+        {
+          "name": "B",
+          "path": "Subcrates/B.crate",
+          "trackPaths": [
+            "Music/Album/two.flac"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "findCratesForTrack",
+    "track": "/Synthetic/é ONE.mp3",
+    "expected": {
+      "ok": [
+        "A"
+      ]
+    }
+  },
+  {
+    "op": "findCratesForTrack",
+    "track": "/Drive/Music/Album/two.flac",
+    "expected": {
+      "ok": [
+        "A",
+        "B"
+      ]
+    }
+  },
+  {
+    "op": "findCratesForTrack",
+    "track": "not-found",
+    "expected": {
+      "ok": []
+    }
+  },
+  {
+    "op": "parseDatabase",
+    "file": "database V2",
+    "expected": {
+      "ok": [
+        {
+          "filePath": "/Synthetic/É one.mp3",
+          "title": "One",
+          "artist": "Artist",
+          "album": "Album",
+          "genre": "House",
+          "key": "8A",
+          "bpm": 128.5,
+          "length": 300.25,
+          "bitrate": 320,
+          "sampleRate": 44100,
+          "fileType": "mp3",
+          "beatgridLocked": true,
+          "missing": false,
+          "dateAdded": "2023-11-14T22:13:20.000Z",
+          "comment": "Search me",
+          "grouping": "Group",
+          "composer": "Composer",
+          "label": "Label",
+          "year": 2026
+        },
+        {
+          "filePath": "Music/Album/two.flac",
+          "title": "Two",
+          "artist": "Artist",
+          "genre": "Techno",
+          "missing": true
+        }
+      ]
+    }
+  },
+  {
+    "op": "parseDatabaseSync",
+    "file": "database V2",
+    "expected": {
+      "ok": [
+        {
+          "filePath": "/Synthetic/É one.mp3",
+          "title": "One",
+          "artist": "Artist",
+          "album": "Album",
+          "genre": "House",
+          "key": "8A",
+          "bpm": 128.5,
+          "length": 300.25,
+          "bitrate": 320,
+          "sampleRate": 44100,
+          "fileType": "mp3",
+          "beatgridLocked": true,
+          "missing": false,
+          "dateAdded": "2023-11-14T22:13:20.000Z",
+          "comment": "Search me",
+          "grouping": "Group",
+          "composer": "Composer",
+          "label": "Label",
+          "year": 2026
+        },
+        {
+          "filePath": "Music/Album/two.flac",
+          "title": "Two",
+          "artist": "Artist",
+          "genre": "Techno",
+          "missing": true
+        }
+      ]
+    }
+  },
+  {
+    "op": "getLibraryTracks",
+    "expected": {
+      "ok": [
+        {
+          "filePath": "/Synthetic/É one.mp3",
+          "title": "One",
+          "artist": "Artist",
+          "album": "Album",
+          "genre": "House",
+          "key": "8A",
+          "bpm": 128.5,
+          "length": 300.25,
+          "bitrate": 320,
+          "sampleRate": 44100,
+          "fileType": "mp3",
+          "beatgridLocked": true,
+          "missing": false,
+          "dateAdded": "2023-11-14T22:13:20.000Z",
+          "comment": "Search me",
+          "grouping": "Group",
+          "composer": "Composer",
+          "label": "Label",
+          "year": 2026
+        },
+        {
+          "filePath": "Music/Album/two.flac",
+          "title": "Two",
+          "artist": "Artist",
+          "genre": "Techno",
+          "missing": true
+        }
+      ]
+    }
+  },
+  {
+    "op": "getTrackByPath",
+    "track": "/synthetic/é ONE.mp3",
+    "expected": {
+      "ok": {
+        "filePath": "/Synthetic/É one.mp3",
+        "title": "One",
+        "artist": "Artist",
+        "album": "Album",
+        "genre": "House",
+        "key": "8A",
+        "bpm": 128.5,
+        "length": 300.25,
+        "bitrate": 320,
+        "sampleRate": 44100,
+        "fileType": "mp3",
+        "beatgridLocked": true,
+        "missing": false,
+        "dateAdded": "2023-11-14T22:13:20.000Z",
+        "comment": "Search me",
+        "grouping": "Group",
+        "composer": "Composer",
+        "label": "Label",
+        "year": 2026
+      }
+    }
+  },
+  {
+    "op": "getTrackByPath",
+    "track": "two.flac",
+    "expected": {
+      "ok": {
+        "filePath": "Music/Album/two.flac",
+        "title": "Two",
+        "artist": "Artist",
+        "genre": "Techno",
+        "missing": true
+      }
+    }
+  },
+  {
+    "op": "getTrackByPath",
+    "track": "missing",
+    "expected": {
+      "ok": null
+    }
+  },
+  {
+    "op": "getTrackByPath",
+    "track": "/Synthetic/É one.mp3/",
+    "expected": {
+      "ok": null
+    }
+  },
+  {
+    "op": "getTrackByPath",
+    "track": "../../two.flac",
+    "expected": {
+      "ok": null
+    }
+  },
+  {
+    "op": "searchLibrary",
+    "query": "HOUSE",
+    "expected": {
+      "ok": [
+        {
+          "filePath": "/Synthetic/É one.mp3",
+          "title": "One",
+          "artist": "Artist",
+          "album": "Album",
+          "genre": "House",
+          "key": "8A",
+          "bpm": 128.5,
+          "length": 300.25,
+          "bitrate": 320,
+          "sampleRate": 44100,
+          "fileType": "mp3",
+          "beatgridLocked": true,
+          "missing": false,
+          "dateAdded": "2023-11-14T22:13:20.000Z",
+          "comment": "Search me",
+          "grouping": "Group",
+          "composer": "Composer",
+          "label": "Label",
+          "year": 2026
+        }
+      ]
+    }
+  },
+  {
+    "op": "searchLibrary",
+    "query": "search ME",
+    "expected": {
+      "ok": [
+        {
+          "filePath": "/Synthetic/É one.mp3",
+          "title": "One",
+          "artist": "Artist",
+          "album": "Album",
+          "genre": "House",
+          "key": "8A",
+          "bpm": 128.5,
+          "length": 300.25,
+          "bitrate": 320,
+          "sampleRate": 44100,
+          "fileType": "mp3",
+          "beatgridLocked": true,
+          "missing": false,
+          "dateAdded": "2023-11-14T22:13:20.000Z",
+          "comment": "Search me",
+          "grouping": "Group",
+          "composer": "Composer",
+          "label": "Label",
+          "year": 2026
+        }
+      ]
+    }
+  },
+  {
+    "op": "searchLibrary",
+    "query": "artist",
+    "expected": {
+      "ok": [
+        {
+          "filePath": "/Synthetic/É one.mp3",
+          "title": "One",
+          "artist": "Artist",
+          "album": "Album",
+          "genre": "House",
+          "key": "8A",
+          "bpm": 128.5,
+          "length": 300.25,
+          "bitrate": 320,
+          "sampleRate": 44100,
+          "fileType": "mp3",
+          "beatgridLocked": true,
+          "missing": false,
+          "dateAdded": "2023-11-14T22:13:20.000Z",
+          "comment": "Search me",
+          "grouping": "Group",
+          "composer": "Composer",
+          "label": "Label",
+          "year": 2026
+        },
+        {
+          "filePath": "Music/Album/two.flac",
+          "title": "Two",
+          "artist": "Artist",
+          "genre": "Techno",
+          "missing": true
+        }
+      ]
+    }
+  },
+  {
+    "op": "searchLibrary",
+    "query": "",
+    "expected": {
+      "ok": [
+        {
+          "filePath": "/Synthetic/É one.mp3",
+          "title": "One",
+          "artist": "Artist",
+          "album": "Album",
+          "genre": "House",
+          "key": "8A",
+          "bpm": 128.5,
+          "length": 300.25,
+          "bitrate": 320,
+          "sampleRate": 44100,
+          "fileType": "mp3",
+          "beatgridLocked": true,
+          "missing": false,
+          "dateAdded": "2023-11-14T22:13:20.000Z",
+          "comment": "Search me",
+          "grouping": "Group",
+          "composer": "Composer",
+          "label": "Label",
+          "year": 2026
+        },
+        {
+          "filePath": "Music/Album/two.flac",
+          "title": "Two",
+          "artist": "Artist",
+          "genre": "Techno",
+          "missing": true
+        }
+      ]
+    }
+  },
+  {
+    "op": "searchLibrary",
+    "query": "missing",
+    "expected": {
+      "ok": []
+    }
+  },
+  {
+    "op": "getDatabaseStats",
+    "expected": {
+      "ok": {
+        "totalTracks": 2,
+        "missingTracks": 1,
+        "lockedBeatgrids": 1,
+        "genres": [
+          "House",
+          "Techno"
+        ],
+        "artists": 1
+      }
+    }
+  },
+  {
+    "op": "listCrates",
+    "folder": "unicode",
+    "expected": {
+      "ok": [
+        "unicode/Subcrates/😀.crate",
+        "unicode/Subcrates/.crate"
+      ]
+    }
+  },
+  {
+    "op": "getDatabaseStats",
+    "folder": "unicode",
+    "expected": {
+      "ok": {
+        "totalTracks": 2,
+        "missingTracks": 0,
+        "lockedBeatgrids": 0,
+        "genres": [
+          "😀",
+          ""
+        ],
+        "artists": 0
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic-v24.mp3",
+    "mime": "audio/mpeg",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic-v24.mp3",
+    "mime": "audio/mpeg",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic-v23.mp3",
+    "mime": "audio/mpeg",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic-v23.mp3",
+    "mime": "audio/mpeg",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic-v22.mp3",
+    "mime": "audio/mpeg",
+    "expected": {
+      "ok": null
+    },
+    "correction": "id3v22-geob-alias",
+    "expectedNative": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic-v22.mp3",
+    "mime": "audio/mpeg",
+    "expected": {
+      "ok": null
+    },
+    "correction": "id3v22-geob-alias",
+    "expectedNative": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic-utf16.mp3",
+    "mime": "audio/mpeg",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic-utf16.mp3",
+    "mime": "audio/mpeg",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic-bad-marker.mp3",
+    "mime": "audio/mpeg",
+    "expected": {
+      "ok": {
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic-bad-marker.mp3",
+    "mime": "audio/mpeg",
+    "expected": {
+      "ok": {
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic.aiff",
+    "mime": "audio/aiff",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic.aiff",
+    "mime": "audio/aiff",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic.wav",
+    "mime": "audio/wav",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic.wav",
+    "mime": "audio/wav",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic.flac",
+    "mime": "audio/flac",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic.flac",
+    "mime": "audio/flac",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic-empty.flac",
+    "mime": "audio/flac",
+    "expected": {
+      "ok": null
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic-empty.flac",
+    "mime": "audio/flac",
+    "expected": {
+      "ok": null
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic.ogg",
+    "mime": "audio/ogg",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic.ogg",
+    "mime": "audio/ogg",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic-fragmented.ogg",
+    "mime": "audio/ogg",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic-fragmented.ogg",
+    "mime": "audio/ogg",
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic.m4a",
+    "mime": "audio/mp4",
+    "expected": {
+      "ok": null
+    },
+    "correction": "raw-mp4-serato-atoms",
+    "expectedNative": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadata",
+    "file": "synthetic.m4a",
+    "mime": "audio/mp4",
+    "expected": {
+      "ok": null
+    },
+    "correction": "raw-mp4-serato-atoms",
+    "expectedNative": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic.flac",
+    "mime": "audio/mpeg",
+    "mismatchedHint": true,
+    "expected": {
+      "ok": null
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic-v24.mp3",
+    "mime": "audio/flac",
+    "mismatchedHint": true,
+    "expected": {
+      "ok": null
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic.flac",
+    "mime": "application/octet-stream",
+    "mismatchedHint": true,
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic.flac",
+    "mime": "",
+    "mismatchedHint": true,
+    "expected": {
+      "ok": {
+        "markers": {
+          "cuePoints": [
+            {
+              "index": 0,
+              "position": 12345,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "First"
+            },
+            {
+              "index": 5,
+              "position": 12350,
+              "color": {
+                "r": 12,
+                "g": 34,
+                "b": 56
+              },
+              "name": "É cue"
+            }
+          ],
+          "loops": [
+            {
+              "index": 2,
+              "startPosition": 4000,
+              "endPosition": 8000,
+              "color": {
+                "r": 1,
+                "g": 2,
+                "b": 3,
+                "a": 255
+              },
+              "locked": true,
+              "name": "Loop"
+            }
+          ],
+          "flips": [
+            {
+              "index": 1,
+              "enabled": true,
+              "name": "Flip",
+              "loop": true,
+              "actions": [
+                {
+                  "type": "jump",
+                  "sourcePosition": 1.25,
+                  "targetPosition": 2.5
+                },
+                {
+                  "type": "censor",
+                  "sourcePosition": 3.25,
+                  "targetPosition": 4.5,
+                  "speedFactor": -1
+                }
+              ]
+            }
+          ],
+          "trackColor": {
+            "r": 204,
+            "g": 136,
+            "b": 0
+          },
+          "bpmLock": true
+        },
+        "beatgrid": {
+          "markers": [
+            {
+              "position": 1.5,
+              "beatsToNext": 8
+            },
+            {
+              "position": 5.5,
+              "bpm": 128.25
+            }
+          ]
+        },
+        "autotags": {
+          "bpm": 128.5,
+          "autoGain": -3.257,
+          "gainDb": 0
+        },
+        "overview": [
+          1,
+          2,
+          255,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "synthetic.ogg",
+    "mime": "audio/flac",
+    "mismatchedHint": true,
+    "expected": {
+      "ok": null
+    }
+  },
+  {
+    "op": "getTrackMetadataFromBuffer",
+    "file": "invalid.audio",
+    "mime": "audio/mpeg",
+    "expected": {
+      "ok": null
+    }
+  }
+]

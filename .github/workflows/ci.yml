@@ -1,0 +1,27 @@
+name: Native Serato and actual TypeScript parity
+on: [push, pull_request]
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    env:
+      npm_config_build_from_source: 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: cargo fmt --check
+      - run: cargo test --locked --all-targets
+      - run: cargo clippy --locked --all-targets -- -D warnings
+      - run: npm ci --prefix tools --no-audit --no-fund
+      - run: node tools/regenerate.cjs
+      - run: node tools/runtime/regenerate.cjs
+      - run: git diff --exit-code -- fixtures tools/runtime
+      - run: cargo test --locked --all-targets

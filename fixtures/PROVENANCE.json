@@ -1,0 +1,62 @@
+{
+  "source": "https://github.com/chrisle/serato-connect",
+  "commit": "8ce4aaf7642968fbde21ad413eff5b89db4debf4",
+  "version": "1.4.6",
+  "license": "MIT; original source headers retained",
+  "source_sha256": {
+    "encoding/base64.ts": "090f8aafe0ab0d5c160a607dbc890ae198ea7f1f0f58b0499f0eb11bbc2a8aee",
+    "encoding/index.ts": "cb8f6dab0758c87daf0020bec225e6b32ec72f592515d94c88691193fffc2cf8",
+    "encoding/serato32.ts": "c1ea006f948bfc03b9a2f83e8961ee2eaa24d1277bda8f79a381b8521eaadab4",
+    "historyParser.ts": "60c527619f8381e5149f3b9566b29598eca0356f0b84a8e2261adf0b5b06af93",
+    "historyParserV4.ts": "b8806ab459ab41cf8020f3e01a39b09cb2fef4352b361ac5903f1a48ee5d2fb8",
+    "index.ts": "2d859bbba7d955353efddd0b4b78f0cf1cda9cd683e4852fd7b3c4ae4cac1025",
+    "parsers/crate.ts": "5eff377ca8c0d171d930ee454519f2c059b1370d653ea3d6f7fd4a4b8af485ea",
+    "parsers/database.ts": "f36177565c874692e2fe71e33cdb724abcd5e6d362fd0438d1b4137d1cb79463",
+    "parsers/geob/autotags.ts": "ebc863d0ff747400f0cd2f1fc0a3185eec10bc443ebf4786a6c3a003a903d938",
+    "parsers/geob/beatgrid.ts": "60b40193c9d955b808c80a5684e02ee7afdc120c39339d5fda0f7dc9b8844ee8",
+    "parsers/geob/index.ts": "d5a38959e767a53c66f8933408219bb7eab9746412e0695b9b33f4932e0840fc",
+    "parsers/geob/markers2.ts": "3152d8d1add4081577937ff07a281951b5949ce9e89dc3825fb424469925c9b2",
+    "parsers/index.ts": "362f7bdb2b1afa4f492892c49d296340c8bbb96a048ec5937f689675ce1d3e0d",
+    "readers/index.ts": "3790c0555b6a5d7d8a2bdc63dda16da2d6d443aef14e035ffbe1f9fae67b109c",
+    "remote/client.ts": "65caa9164981a8ba77dc6b1d24b080a9fbc52dbe1905154934f7fcf5efd699c3",
+    "remote/framing.ts": "13204fbc56ab9fea4feff6e44f12ef5383e1f5d6d807029c8abea29dd4f9145b",
+    "remote/index.ts": "4ad5061607db2bbe611396bcccedd13a4f84f2d347742811d90e98b035cbe85b",
+    "remote/mdns.ts": "067afcf8a1df641df21a12932c01da354f277f1d1eb30c191e1a7877a6810fe5",
+    "remote/osc.ts": "9f63a6e124b8f5d6f76ecea3c69328d49b86b1dc967bf39e17a8312e71d0495a",
+    "remote/server.ts": "8d4b8aee7310c434d923787ccf0318be1abc1945eeb41f00bfdc4008a6339e23",
+    "remote/types.ts": "a3a8d62f7bdb7334d692d1c8c7095acfd63b6d00f138a4987e53e0358ebc07d0",
+    "seratoConnect.ts": "5de149ddbbc6ebd70c6ec7722d106ef430b4274539cd2cae57aa920b4d200e31",
+    "types/logger.ts": "deed6597e68bc0d99e9bb364ae4ef19763779c64bddf4eadaff8038fcb5052a5",
+    "types.ts": "e47038d1164c8e85bab6f57437a0b7084acfda4ca449284e5bc63f8d98aecbc6"
+  },
+  "fixtures": "Generated synthetic data only. No personal libraries, captured audio or network traffic.",
+  "license_evidence": [
+    {
+      "file": "LICENSES/MPL-2.0.txt",
+      "url": "https://www.mozilla.org/media/MPL/2.0/index.txt",
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "file": "LICENSES/serato-tags-MIT.txt",
+      "url": "https://raw.githubusercontent.com/Holzhaus/serato-tags/master/LICENSE",
+      "sha256": "062dcf874e3b8afdf856c651f0d0f5918c07433dfc6bc6a8dd011fbe68c123c7"
+    },
+    {
+      "file": "LICENSES/serato-tools-MIT.txt",
+      "url": "https://raw.githubusercontent.com/bvandercar-vt/serato-tools/master/LICENSE",
+      "sha256": "8a777f35ad6789144dc4005db2b17d37d81889e4e57bf8975362588f68573476"
+    }
+  ],
+  "local_file_licenses": {
+    "src/encoding/mod.rs": "MPL-2.0",
+    "src/parsers/geob.rs": "MPL-2.0",
+    "other new Rust files": "MIT"
+  },
+  "triseratops_algorithm_evidence": {
+    "repository": "https://github.com/Holzhaus/triseratops",
+    "revision": "8e92aae1794c4f02a2405eb88ea72f251b077f0c",
+    "path": "src/tag/serato32.rs",
+    "sha256": "cba4e254f5988a4ffe0b8bcf46717b6ec84ce29951e205d924d1ad1463183821",
+    "license": "MPL-2.0; copyright 2025 Jan Holthuis; matched seven-bit encode/decode transform; local files retain MPL-2.0"
+  }
+}

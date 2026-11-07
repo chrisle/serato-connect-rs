@@ -1,0 +1,9 @@
+# Source/fixture checksums are byte-exact on every platform.
+* -text
+*.bin binary
+*.mp3 binary
+*.aiff binary
+*.flac binary
+*.ogg binary
+*.m4a binary
+*.wav binary

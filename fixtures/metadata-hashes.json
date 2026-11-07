@@ -1,0 +1,22 @@
+{
+  "Subcrates/A.crate": "d0dfbf161a4b848d5f2cd82ba1d28df42f5d887935af2996111fc3bdb5137b7c",
+  "Subcrates/B.crate": "cd3f2980da81f9152fedad53db09954e3854e1b06042f017a8cea874b5f49c67",
+  "Subcrates/ignored.scrate": "d0dfbf161a4b848d5f2cd82ba1d28df42f5d887935af2996111fc3bdb5137b7c",
+  "database V2": "52ace002e1ba0af0926e21bde198293387a06b34ab0a6cb2b3da0d38182c9235",
+  "invalid.audio": "e23b51a40d21aad70200ec1f08c6e4883d6ca40c22b6ffbdff306c9c62c408e4",
+  "synthetic-bad-marker.mp3": "cdc4a92f56bec1e4b3d4500f7f7e56714687eb96f5bbdca429e1c0de6ab7d117",
+  "synthetic-empty.flac": "16c4a9590b5377f4442347c7c4dfe006d1d370aefd29363752b01c017713eb04",
+  "synthetic-fragmented.ogg": "25713747cc1ed96b055e4407b0a65e1c11f0c9e1a43f013d64753f8ce15f9ec1",
+  "synthetic-utf16.mp3": "81aa1056e78cc703c119e69a1447429249bbc82162fd4b1bf7851d5c8c8ecd7c",
+  "synthetic-v22.mp3": "52a43440756de7a9d123bc1df1dd8328dceeb92617d78517b54487c2f8da9d98",
+  "synthetic-v23.mp3": "7cb9529bc05ff0ba80df40005cfd51f2fdb3c68232509c6ca7dc829f82f8ca60",
+  "synthetic-v24.mp3": "0e106be970f0f412db605936612da5e7db8e94f2dfd3de598cb3ea503fa32d90",
+  "synthetic.aiff": "9c79dfef2e4b0185278d94fc2123369c33ae393b9d5e02d9dc7734a82e4aa9db",
+  "synthetic.flac": "7a95e01b42f49297d99da54c2ce59e2cf7a72845a57262ae3088905b82d1c5c2",
+  "synthetic.m4a": "0f19a6d54a0b0f31a716f0827cae42b38f4d539c8fefefab4cd661d96f1ddb2e",
+  "synthetic.ogg": "859ffcbcea7de8f4d445a4003457ec251edb85979178855d6a514325803be401",
+  "synthetic.wav": "572a6fde38b6669b789be7c3fd93fcbbbc38dec69c4ffe1d0f250e194c606d9f",
+  "unicode/Subcrates/😀.crate": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "unicode/Subcrates/.crate": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "unicode/database V2": "31ea32dd98291bf7c98d90e29d9dc6d6d85a89484c9a5a793e0ae3bc14a96bb7"
+}

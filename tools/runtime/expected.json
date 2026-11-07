@@ -1,0 +1,777 @@
+{
+  "v3Songs": [
+    {
+      "title": "Fixture 🎵",
+      "artist": "Synthetic Artist",
+      "bpm": 128,
+      "filePath": "/Synthetic/one.mp3",
+      "startTime": "2023-11-14T22:13:20.000Z",
+      "played": false,
+      "playing": false,
+      "deck": 1
+    },
+    {
+      "title": "Played",
+      "artist": "Guest",
+      "bpm": 129,
+      "filePath": "/Synthetic/two.mp3",
+      "startTime": "2023-11-14T22:13:21.000Z",
+      "played": true,
+      "playing": true,
+      "deck": 2
+    },
+    {
+      "title": "Ended",
+      "artist": "Guest",
+      "bpm": 130,
+      "filePath": "/Synthetic/three.mp3",
+      "startTime": "2023-11-14T22:13:22.000Z",
+      "playTime": "2023-11-14T22:15:00.000Z",
+      "played": true,
+      "playing": false,
+      "deck": 2
+    },
+    {
+      "title": "Deckless",
+      "artist": "",
+      "bpm": 0,
+      "filePath": "",
+      "startTime": "1970-01-01T00:00:00.000Z",
+      "played": true,
+      "playing": true,
+      "deck": 0
+    }
+  ],
+  "v3Sessions": [
+    [
+      "2023-11-14",
+      1
+    ],
+    [
+      "2023-11-15",
+      2
+    ]
+  ],
+  "v3History": [
+    {
+      "date": "2023-11-14",
+      "index": 1,
+      "songs": [
+        {
+          "title": "Fixture 🎵",
+          "artist": "Synthetic Artist",
+          "bpm": 128,
+          "filePath": "/Synthetic/one.mp3",
+          "startTime": "2023-11-14T22:13:20.000Z",
+          "played": false,
+          "playing": false,
+          "deck": 1
+        },
+        {
+          "title": "Played",
+          "artist": "Guest",
+          "bpm": 129,
+          "filePath": "/Synthetic/two.mp3",
+          "startTime": "2023-11-14T22:13:21.000Z",
+          "played": true,
+          "playing": true,
+          "deck": 2
+        },
+        {
+          "title": "Ended",
+          "artist": "Guest",
+          "bpm": 130,
+          "filePath": "/Synthetic/three.mp3",
+          "startTime": "2023-11-14T22:13:22.000Z",
+          "playTime": "2023-11-14T22:15:00.000Z",
+          "played": true,
+          "playing": false,
+          "deck": 2
+        },
+        {
+          "title": "Deckless",
+          "artist": "",
+          "bpm": 0,
+          "filePath": "",
+          "startTime": "1970-01-01T00:00:00.000Z",
+          "played": true,
+          "playing": true,
+          "deck": 0
+        }
+      ]
+    },
+    {
+      "date": "2023-11-15",
+      "index": 2,
+      "songs": [
+        {
+          "title": "Fixture 🎵",
+          "artist": "Synthetic Artist",
+          "bpm": 128,
+          "filePath": "/Synthetic/one.mp3",
+          "startTime": "2023-11-14T22:13:20.000Z",
+          "played": false,
+          "playing": false,
+          "deck": 1
+        },
+        {
+          "title": "Played",
+          "artist": "Guest",
+          "bpm": 129,
+          "filePath": "/Synthetic/two.mp3",
+          "startTime": "2023-11-14T22:13:21.000Z",
+          "played": true,
+          "playing": true,
+          "deck": 2
+        },
+        {
+          "title": "Ended",
+          "artist": "Guest",
+          "bpm": 130,
+          "filePath": "/Synthetic/three.mp3",
+          "startTime": "2023-11-14T22:13:22.000Z",
+          "playTime": "2023-11-14T22:15:00.000Z",
+          "played": true,
+          "playing": false,
+          "deck": 2
+        },
+        {
+          "title": "Deckless",
+          "artist": "",
+          "bpm": 0,
+          "filePath": "",
+          "startTime": "1970-01-01T00:00:00.000Z",
+          "played": true,
+          "playing": true,
+          "deck": 0
+        }
+      ]
+    }
+  ],
+  "latestPath": "2.session",
+  "v4Sessions": [
+    {
+      "date": "2023-11-14",
+      "index": 2,
+      "songs": [
+        {
+          "title": "Orphan",
+          "artist": "",
+          "filePath": "fallback.mp3",
+          "played": false
+        },
+        {
+          "title": "Loaded",
+          "artist": "Fixture Artist",
+          "filePath": "/Synthetic/one.mp3",
+          "bpm": 128,
+          "startTime": "2023-11-14T23:53:21.000Z",
+          "played": false,
+          "deck": 1,
+          "album": "Synthetic Album",
+          "label": "Synthetic Label",
+          "genre": "House",
+          "key": "Am"
+        },
+        {
+          "title": "External",
+          "artist": "Guest",
+          "filePath": "/Volumes/Synthetic/Music/two.mp3",
+          "bpm": 129,
+          "startTime": "2023-11-14T23:53:22.000Z",
+          "played": true,
+          "deck": 2
+        },
+        {
+          "title": "Stream",
+          "artist": "Streaming Artist",
+          "filePath": "streaming://beatport/12345",
+          "bpm": 130,
+          "startTime": "2023-11-14T23:53:23.000Z",
+          "playTime": "2023-11-14T23:53:24.000Z",
+          "played": true,
+          "deck": 3,
+          "artworkUrl": "https://example.test/synthetic-cover.jpg",
+          "streamingSource": "beatport",
+          "streamingId": "12345",
+          "album": "Streaming Album",
+          "label": "Streaming Label",
+          "genre": "Techno",
+          "key": "Cm"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-14",
+      "index": 1,
+      "songs": [
+        {
+          "title": "Old",
+          "artist": "Fixture Artist",
+          "filePath": "old.mp3",
+          "bpm": 120,
+          "startTime": "2023-11-14T22:13:21.000Z",
+          "playTime": "2023-11-14T22:15:00.000Z",
+          "played": true,
+          "deck": 1
+        }
+      ]
+    }
+  ],
+  "v4Songs": [
+    {
+      "title": "Orphan",
+      "artist": "",
+      "filePath": "fallback.mp3",
+      "played": false
+    },
+    {
+      "title": "Loaded",
+      "artist": "Fixture Artist",
+      "filePath": "/Synthetic/one.mp3",
+      "bpm": 128,
+      "startTime": "2023-11-14T23:53:21.000Z",
+      "played": false,
+      "deck": 1,
+      "album": "Synthetic Album",
+      "label": "Synthetic Label",
+      "genre": "House",
+      "key": "Am"
+    },
+    {
+      "title": "External",
+      "artist": "Guest",
+      "filePath": "/Volumes/Synthetic/Music/two.mp3",
+      "bpm": 129,
+      "startTime": "2023-11-14T23:53:22.000Z",
+      "played": true,
+      "deck": 2
+    },
+    {
+      "title": "Stream",
+      "artist": "Streaming Artist",
+      "filePath": "streaming://beatport/12345",
+      "bpm": 130,
+      "startTime": "2023-11-14T23:53:23.000Z",
+      "playTime": "2023-11-14T23:53:24.000Z",
+      "played": true,
+      "deck": 3,
+      "artworkUrl": "https://example.test/synthetic-cover.jpg",
+      "streamingSource": "beatport",
+      "streamingId": "12345",
+      "album": "Streaming Album",
+      "label": "Streaming Label",
+      "genre": "Techno",
+      "key": "Cm"
+    }
+  ],
+  "v4Info": {
+    "id": 2,
+    "entryCount": 4
+  },
+  "osc": [
+    {
+      "hex": "2f50696e670000002c000000",
+      "decoded": {
+        "address": "/Ping",
+        "args": []
+      },
+      "frame": "2f50696e670000002c0000004caac2ae35b1c476db5a644403bd4170"
+    },
+    {
+      "hex": "2f5374617475732f4465636b2f536f6e672f5469746c65002c69730000000000556e69636f646520f09f8eb500000000",
+      "decoded": {
+        "address": "/Status/Deck/Song/Title",
+        "args": [
+          {
+            "type": "i",
+            "value": 0
+          },
+          {
+            "type": "s",
+            "value": "Unicode 🎵"
+          }
+        ]
+      },
+      "frame": "2f5374617475732f4465636b2f536f6e672f5469746c65002c69730000000000556e69636f646520f09f8eb5000000004caac2ae35b1c476db5a644403bd4170"
+    },
+    {
+      "hex": "2f5374617475732f4465636b2f506c6179686561640000002c6966666600000000000002414800003f8147ae43013333",
+      "decoded": {
+        "address": "/Status/Deck/Playhead",
+        "args": [
+          {
+            "type": "i",
+            "value": 2
+          },
+          {
+            "type": "f",
+            "value": 12.5
+          },
+          {
+            "type": "f",
+            "value": 1.0099999904632568
+          },
+          {
+            "type": "f",
+            "value": 129.1999969482422
+          }
+        ]
+      },
+      "frame": "2f5374617475732f4465636b2f506c6179686561640000002c6966666600000000000002414800003f8147ae430133334caac2ae35b1c476db5a644403bd4170"
+    },
+    {
+      "hex": "2f417574686f72697a6500002c620000000000040001ff04",
+      "decoded": {
+        "address": "/Authorize",
+        "args": [
+          {
+            "type": "b",
+            "value": [
+              0,
+              1,
+              255,
+              4
+            ]
+          }
+        ]
+      },
+      "frame": "2f417574686f72697a6500002c620000000000040001ff044caac2ae35b1c476db5a644403bd4170"
+    }
+  ],
+  "framed": [
+    {
+      "address": "/Ping",
+      "args": []
+    },
+    {
+      "address": "/Status/Deck/Song/Title",
+      "args": [
+        {
+          "type": "i",
+          "value": 0
+        },
+        {
+          "type": "s",
+          "value": "Unicode 🎵"
+        }
+      ]
+    },
+    {
+      "address": "/Status/Deck/Playhead",
+      "args": [
+        {
+          "type": "i",
+          "value": 2
+        },
+        {
+          "type": "f",
+          "value": 12.5
+        },
+        {
+          "type": "f",
+          "value": 1.0099999904632568
+        },
+        {
+          "type": "f",
+          "value": 129.1999969482422
+        }
+      ]
+    },
+    {
+      "address": "/Authorize",
+      "args": [
+        {
+          "type": "b",
+          "value": [
+            0,
+            1,
+            255,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "pendingBytes": 0,
+  "remote": [
+    {
+      "type": "deckChange",
+      "payload": {
+        "deckId": 1,
+        "track": {
+          "title": "Old",
+          "artist": "Old Artist",
+          "filePath": "/Synthetic/old.mp3"
+        },
+        "previousTrack": null
+      }
+    },
+    {
+      "type": "deckChange",
+      "payload": {
+        "deckId": 1,
+        "track": {
+          "title": "New",
+          "artist": "New Artist",
+          "filePath": "/Synthetic/new.mp3"
+        },
+        "previousTrack": {
+          "title": "Old",
+          "artist": "Old Artist",
+          "filePath": "/Synthetic/old.mp3"
+        }
+      }
+    },
+    {
+      "type": "playhead",
+      "payload": {
+        "deckId": 1,
+        "playhead": {
+          "positionSeconds": 12.5,
+          "playRate": 1,
+          "bpm": 128,
+          "raw": [
+            12.5,
+            1,
+            128
+          ]
+        }
+      }
+    },
+    {
+      "type": "loopChange",
+      "payload": {
+        "deckId": 1,
+        "loop": {
+          "autoLoopOn": true
+        }
+      }
+    },
+    {
+      "type": "loopChange",
+      "payload": {
+        "deckId": 1,
+        "loop": {
+          "autoLoopOn": true,
+          "beatLength": 4
+        }
+      }
+    },
+    {
+      "type": "loopChange",
+      "payload": {
+        "deckId": 1,
+        "loop": {
+          "autoLoopOn": true,
+          "beatLength": 4,
+          "loopRollOn": false
+        }
+      }
+    },
+    {
+      "type": "mixerChange",
+      "payload": {
+        "mixer": {
+          "crossfader": 0.25,
+          "upfaders": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "type": "mixerChange",
+      "payload": {
+        "mixer": {
+          "crossfader": 0.25,
+          "upfaders": [
+            null,
+            0.75,
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "type": "deckChange",
+      "payload": {
+        "deckId": 1,
+        "track": null,
+        "previousTrack": {
+          "title": "New",
+          "artist": "New Artist",
+          "filePath": "/Synthetic/new.mp3"
+        }
+      }
+    }
+  ],
+  "mixer": {
+    "crossfader": 0.25,
+    "upfaders": [
+      null,
+      0.75,
+      null,
+      null,
+      null
+    ]
+  },
+  "loop": {
+    "autoLoopOn": true,
+    "beatLength": 4,
+    "loopRollOn": false
+  },
+  "track": null,
+  "v3Lifecycle": [
+    {
+      "type": "ready",
+      "payload": {
+        "seratoPath": "synthetic",
+        "sessionCount": 2
+      }
+    },
+    {
+      "type": "deckChange",
+      "payload": {
+        "deckId": 1,
+        "track": {
+          "title": "Fixture 🎵",
+          "artist": "Synthetic Artist",
+          "bpm": 128,
+          "filePath": "/Synthetic/one.mp3",
+          "startTime": "2023-11-14T22:13:20.000Z",
+          "played": false,
+          "playing": false,
+          "deck": 1
+        },
+        "previousTrack": null
+      }
+    },
+    {
+      "type": "deckChange",
+      "payload": {
+        "deckId": 1,
+        "track": {
+          "title": "Fixture 🎵",
+          "artist": "Synthetic Artist",
+          "bpm": 128,
+          "filePath": "/Synthetic/one.mp3",
+          "startTime": "2023-11-14T22:13:20.000Z",
+          "played": true,
+          "playing": true,
+          "deck": 1
+        },
+        "previousTrack": {
+          "title": "Fixture 🎵",
+          "artist": "Synthetic Artist",
+          "bpm": 128,
+          "filePath": "/Synthetic/one.mp3",
+          "startTime": "2023-11-14T22:13:20.000Z",
+          "played": false,
+          "playing": false,
+          "deck": 1
+        }
+      }
+    },
+    {
+      "type": "deckChange",
+      "payload": {
+        "deckId": 2,
+        "track": {
+          "title": "New Live",
+          "artist": "Live Artist",
+          "bpm": 132,
+          "filePath": "/Synthetic/live.mp3",
+          "startTime": "2023-11-14T22:16:40.000Z",
+          "played": true,
+          "playing": true,
+          "deck": 2
+        },
+        "previousTrack": null
+      }
+    },
+    {
+      "type": "history",
+      "payload": {
+        "seratoPath": "synthetic",
+        "count": 1,
+        "tracks": [
+          {
+            "title": "New Live",
+            "artist": "Live Artist",
+            "bpm": 132,
+            "filePath": "/Synthetic/live.mp3",
+            "startTime": "2023-11-14T22:16:40.000Z",
+            "played": true,
+            "playing": true,
+            "deck": 2
+          }
+        ],
+        "lastTrackIndex": 5
+      }
+    },
+    {
+      "type": "deckChange",
+      "payload": {
+        "deckId": 1,
+        "track": null,
+        "previousTrack": {
+          "title": "Fixture 🎵",
+          "artist": "Synthetic Artist",
+          "bpm": 128,
+          "filePath": "/Synthetic/one.mp3",
+          "startTime": "2023-11-14T22:13:20.000Z",
+          "played": true,
+          "playing": true,
+          "deck": 1
+        }
+      }
+    },
+    {
+      "type": "deckChange",
+      "payload": {
+        "deckId": 2,
+        "track": null,
+        "previousTrack": {
+          "title": "New Live",
+          "artist": "Live Artist",
+          "bpm": 132,
+          "filePath": "/Synthetic/live.mp3",
+          "startTime": "2023-11-14T22:16:40.000Z",
+          "played": true,
+          "playing": true,
+          "deck": 2
+        }
+      }
+    },
+    {
+      "type": "deckChange",
+      "payload": {
+        "deckId": 3,
+        "track": {
+          "title": "New Session",
+          "artist": "Live Artist",
+          "bpm": 134,
+          "filePath": "/Synthetic/session.mp3",
+          "startTime": "2023-11-14T22:18:20.000Z",
+          "played": true,
+          "playing": true,
+          "deck": 3
+        },
+        "previousTrack": null
+      }
+    },
+    {
+      "type": "history",
+      "payload": {
+        "seratoPath": "synthetic",
+        "count": 1,
+        "tracks": [
+          {
+            "title": "New Session",
+            "artist": "Live Artist",
+            "bpm": 134,
+            "filePath": "/Synthetic/session.mp3",
+            "startTime": "2023-11-14T22:18:20.000Z",
+            "played": true,
+            "playing": true,
+            "deck": 3
+          }
+        ],
+        "lastTrackIndex": 1
+      }
+    },
+    {
+      "type": "session",
+      "payload": {
+        "session": {
+          "date": "DATE",
+          "index": 3,
+          "songs": [
+            {
+              "title": "New Session",
+              "artist": "Live Artist",
+              "bpm": 134,
+              "filePath": "/Synthetic/session.mp3",
+              "startTime": "2023-11-14T22:18:20.000Z",
+              "played": true,
+              "playing": true,
+              "deck": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "sessionFrames": [
+    {
+      "address": "/StreamMgmt/Authorize/Response",
+      "args": [
+        {
+          "type": "s",
+          "value": "Synthetic Remote"
+        },
+        {
+          "type": "s",
+          "value": "synthetic-peer-uuid"
+        },
+        {
+          "type": "b",
+          "value": [
+            7,
+            200,
+            252,
+            128,
+            153,
+            41,
+            128,
+            70,
+            78,
+            64,
+            143,
+            220,
+            74,
+            113,
+            91,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "address": "/StreamMgmt/Pairing/Pair",
+      "args": [
+        {
+          "type": "s",
+          "value": "Synthetic Remote"
+        },
+        {
+          "type": "s",
+          "value": "synthetic-peer-uuid"
+        },
+        {
+          "type": "i",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "address": "/Register/Status/Deck/Playhead",
+      "args": []
+    },
+    {
+      "address": "/Ping",
+      "args": []
+    },
+    {
+      "address": "/StreamMgmt/Pairing/UnPair",
+      "args": []
+    }
+  ]
+}
